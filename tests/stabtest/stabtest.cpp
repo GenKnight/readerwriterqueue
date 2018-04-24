@@ -9,7 +9,7 @@ using namespace moodycamel;
 #include <cstdlib>		// rand()
 //#include <unistd.h>		// usleep()
 
-void unpredictableDelay(int extra = 0)
+void unpredictableDelay(int extra = 0)  //不可预测的延时 模拟随机延时
 {
 /*	if ((rand() & 4095) == 0) {
 		usleep(2000 + extra);	// in microseconds
